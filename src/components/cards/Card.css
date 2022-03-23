@@ -1,0 +1,36 @@
+section {
+  font-family: "Amatic SC", cursive;
+  background-color: #90caf9;
+  margin-top: -1rem !important;
+  width: 100%;
+}
+
+.card-image {
+  height: 14rem;
+  width: 98%;
+  border-radius: 5px;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.card:hover img {
+  filter: grayscale(100%);
+}
+
+.card:hover .description {
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.description {
+  position: absolute;
+  bottom: 10px;
+  font-family: "Tahoma";
+  font-size: 1rem;
+  overflow-y: scroll;
+  height: 75px;
+  opacity: 0;
+}

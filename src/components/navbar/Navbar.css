@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.nav-item {
+  font-size: 2rem;
+  font-family: "Amatic SC", cursive;
+  padding: 15px 10px;
+}
+
+.nav-item:hover {
+  background-color: #90caf9;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
